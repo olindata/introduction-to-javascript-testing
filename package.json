@@ -1,0 +1,35 @@
+{
+  "name": "introduction-to-javascript-testing",
+  "version": "1.0.0",
+  "description": "An introduction to JavaScript Testing",
+  "main": "collection.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "chai": "^1.10.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.0.1"
+  },
+  "scripts": {
+    "test": "'mocha --ui tdd tests/collection.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/olindata/introduction-to-javascript-testing"
+  },
+  "keywords": [
+    "javascript",
+    "nodejs",
+    "testing",
+    "mocha",
+    "chai"
+  ],
+  "author": "Raj Kissu <rajkissu@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/olindata/introduction-to-javascript-testing/issues"
+  },
+  "homepage": "https://github.com/olindata/introduction-to-javascript-testing"
+}
